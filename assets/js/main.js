@@ -6,7 +6,7 @@ requirejs.config({
 		"vue": "vue/vue.min",
 		"vuerouter": "vue/vue-router.min",
 		"httpVueLoader": "vue/httpVueLoader.min",
-		"toast": "toast/toast",
+		"toast": "toast/toast.min",
 	},
 	shim: {
 		"jquery": {
