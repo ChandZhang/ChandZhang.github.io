@@ -32,7 +32,7 @@ requirejs.config({
 });
 
 //项目启动文件
-requirejs(["vue", "vuerouter", "httpVueLoader", "jquery","toast"], function(Vue, VueRouter, httpVueLoader, jquery,toast) {
+requirejs(["vue", "vuerouter", "httpVueLoader", "jquery", "toast"], function(Vue, VueRouter, httpVueLoader, jquery, toast) {
 
 	console.log("VUE : " + Vue.version);
 	window.toast = toast;
@@ -60,4 +60,3 @@ requirejs(["vue", "vuerouter", "httpVueLoader", "jquery","toast"], function(Vue,
 		currentRoute: window.location.pathname
 	}).$mount('#mainContainer');
 });
-
