@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="assets/css/default.css" />
+		<link rel="stylesheet" href="assets/css/toast.css" />
+		<style>
+			html {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				color: #F8F8F8;
+			}
+			
+			body {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				background-image: url(assets/images/app_back.jpg);
+				color: #F8F8F8;
+			}
+			
+			.main_view {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+			}
+		</style>
+	</head>
+
+	<body oncontextmenu="return false;" onselectstart="return false;">
+		<div id="mainContainer" class="main_view">
+			<router-view></router-view>
+		</div>
+	</body>
+	<script type="text/javascript" src="assets/js/require.js" data-main="assets/js/main"></script>
+
+</html>
