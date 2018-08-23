@@ -17,9 +17,25 @@ button {
 	box-sizing: border-box;
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: center;
+	justify-content:center;
 	align-items: center;
 }
+.flex_horizontal_left {
+	justify-content: flex-start;
+}
+
+.flex_horizontal_right {
+	justify-content: flex-end;
+}
+
+.flex_horizontal_top {
+	align-items: flex-start;
+}
+
+.flex_horizontal_bottom {
+	align-items: flex-end;
+}
+
 
 .flex_vertical {
 	box-sizing: border-box;
@@ -27,6 +43,22 @@ button {
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
+}
+
+.flex_vertical_left {
+	justify-content: flex-start;
+}
+
+.flex_vertical_right {
+	justify-content: flex-end;
+}
+
+.flex_vertical_top {
+	align-items: flex-start;
+}
+
+.flex_vertical_bottom {
+	align-items: flex-end;
 }
 
 .main_view {

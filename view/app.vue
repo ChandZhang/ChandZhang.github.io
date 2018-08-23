@@ -3,7 +3,13 @@
 		<div class="app_header">
 			<div class="app_header_content">开发进行中...&nbsp;&nbsp;&nbsp;&nbsp;(挖坑、填坑、挖新坑)</div>
 		</div>
-		<div class="main_container">
+		<div class="main_container flex_horizontal flex_horizontal_top">
+			
+			<img src="assets/images/waiting.jpg" />
+			<!--
+            	作者：lmajzcd@sina.com
+            	时间：2018-08-23
+            	描述：
 			<div class="common_container">
 				<button class="comm_button" @click="gotoOuterWebsite('https://www.aliyun.com/')">阿里云</button>
 				<button class="comm_button" @click="gotoOuterWebsite('https://github.com/')">gitHubs</button>
@@ -26,8 +32,8 @@
 				<button class="comm_button" @click="gotoOuterWebsite('http://www.runoob.com/python3/python3-tutorial.html')">Python</button>
 				<button class="comm_button" @click="gotoOuterWebsite('http://www.w3school.com.cn/')">W3C学习</button>
 				<button class="comm_button" @click="gotoOuterWebsite('http://www.w3school.com.cn/cssref/index.asp')">CSS手册</button>
-
 			</div>
+			-->
 		</div>
 
 	</div>
